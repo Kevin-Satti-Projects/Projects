@@ -1,0 +1,48 @@
+:root{
+    --columns : 4;
+    --colour : white;
+}
+
+body {
+    background-color: peru;
+}
+
+h1 {
+    font-size : 400%;
+    color : darkblue;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-size : 200%;
+    color: darkblue;
+    text-align: center;
+    margin-top: 0;
+}
+
+button {
+    width: 24.5%;
+    background-color: black;
+    color: crimson;
+    font-size: 3rem;
+}
+
+.holder {
+    width: 80%;
+    margin: auto;
+}
+
+.holder2 {
+    width: 32%;
+    margin: auto;
+}
+
+#container {
+    margin: auto;
+    width:  480px;
+    height: 480px;
+    display: inline-grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+}
