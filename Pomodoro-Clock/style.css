@@ -103,6 +103,13 @@ button:hover{
     width: 9%;
 }
 
+#subtitle {
+    color: rgb(71, 71, 71);
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
 #time {
     background-color: black;
     color: var(--timeColor);
