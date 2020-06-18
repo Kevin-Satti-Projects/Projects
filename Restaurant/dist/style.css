@@ -1,0 +1,105 @@
+body {
+    color: rgb(189, 189, 189);
+    font-family:  'Oleo Script', Helvetica, sans-serif;
+    font-size: 1vw;
+    text-shadow: 4px 4px 0px rgb(24, 24, 24);
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    font-size: 1.5vw;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: turquoise;
+    font-size: 400%;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+h2 {
+    color: turquoise;
+    font-size: 200%;
+    margin-bottom: 3%;
+    margin-top: 0;
+}
+
+html {    
+    background: url('../Images/unnamed.png') no-repeat center fixed;     
+    background-size: cover;
+}
+
+.food{
+    border: 1px solid green;
+    height: 12vw;
+    width: 15vw;
+}
+
+.tab {
+    font-size: 3vw;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0px rgb(24, 24, 24);
+    width: 15%;
+}
+
+.tab:hover {
+    background-color: grey;
+}
+
+#center {
+    text-align: center;
+}
+
+#logo {
+    height: 20vh;
+    margin-top: 5%;
+}
+
+#tabs {
+    margin: auto;
+    width: 40%;
+}
+
+#tab1 {
+
+}
+
+#tab2 {
+    margin-left: 22%;
+    text-decoration: none;
+}
+
+#tab3 {
+    margin-left: 19%;
+    text-decoration: none;
+}
+
+#text {
+    font-size: 2vw;
+}
+
+#textContainer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5vw;
+    margin: auto;
+    margin-top: 3%;
+    text-shadow: none;
+    width: 50%;
+}
+
+#textContainerMenu {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: auto;
+    margin-top: 3%;
+    text-shadow: none;
+    width: 64%;
+}
+
+#title {
+    text-align: center;
+}
