@@ -1,4 +1,5 @@
 const functionOne = () => {
+    document.getElementById("tab1").style.textDecoration = "underline";
     let textContainer = document.createElement("div");
     textContainer.id = "textContainer";
     let text = document.createElement("div");
