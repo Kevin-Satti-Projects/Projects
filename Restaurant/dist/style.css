@@ -66,17 +66,20 @@ html {
 }
 
 #tab1 {
-
+    display: inline-block;
+    width: 30%;
 }
 
 #tab2 {
-    margin-left: 21%;
+    display: inline-block;
     text-decoration: none;
+    min-width: 30%;
 }
 
 #tab3 {
-    margin-left: 18%;
+    display: inline-block;
     text-decoration: none;
+    min-width: 30%;
 }
 
 #text {
