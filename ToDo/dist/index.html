@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "style.css" type = "text/css">
+    </head>
+    <body>
+        <div id = "title">
+            <h1>To Do List</h1>
+            <div id = "subtitle">
+                <h2>By Kevin Satti</h2>
+            </div>
+        </div>
+        <div id = "newToDoForm">
+            <div>To Do</div>
+            <div>
+                <input id = "newToDoName" type = "text" maxlength = "20">
+            </div>
+            <div class = "spacing">Due</div>
+            <div>
+                <input id = "newToDoDate" type = "date">
+            </div>
+            <div class = "spacing">Priority</div>
+            <div>
+                <form>                  
+                    <input id = "priorityHigh" type="radio" name="group1" value="high">
+                    <label for="high">High</label>
+                    <input id = "priorityMedium" type="radio" name="group1" value="medium">
+                    <label for="medium">Medium</label>
+                    <input id = "priorityLow" type="radio" name="group1" value="low">
+                    <label for="low">Low</label>
+                </form>
+            </div>
+            <div class = "spacing">Notes</div>
+            <div>
+                <input id = "newToDoNotes" type = "text" maxlength = "30">
+            </div>
+            <div class = "spacing">
+                <button id = "addToDoButton">Add</button>
+                <button id = "cancelToDoButton">Cancel</button>
+            </div>
+        </div>
+        <div id = "deleteToDoForm">
+            <div id = "deleteTitle">Select To Do(s) to be deleted:</div>
+            <div id = "checkboxHolder">
+            </div>
+            <div>
+                <button id = "confirmDeleteButton">Confirm</button>
+            </div>
+        </div>
+        <div id = "tabs">
+            <button class = "tab active" class = "active" id = "Project1Button">Chores</button>
+            <button class = "tab" id = "Project2Button">Chinese</button>
+            <button class = "tab" id = "Project3Button">Coding</button>
+            <button class = "tab" id = "NewProjectButton">+</button>
+        </div>
+        <div id = "navBar">
+            <h1 class = "columnTitle" id = "Options">Options:</h1>
+            <button class = "menu" id = "newToDoButton">New Todo</button>
+            <button class = "menu" id = "deleteToDoButton">Delete Todo</button>
+            <button class = "menu" id = "deleteProjectButton">Delete Project</button>
+        </div><div id = "toDoList">
+            <h1 class = "columnTitle">To Do</h1>
+            <ul id = "toDoColumn">
+                <li>Take out the trash</li>
+                <li>Clean floors</li>
+                <li>Weeding</li>
+                <li>Washing up</li>
+            </ul>
+        </div><div id = "dates">
+            <h1 class = "columnTitle">Due</h1>
+            <ul id = "datesColumn">
+                <li>23/06/2020</li>
+                <li>23/06/2020</li>
+                <li>24/06/2020</li>
+                <li>27/06/2020</li>
+            </ul>
+        </div><div id = "Priority">
+            <h1 class = "columnTitle">Priority</h1>
+            <ul id = "priorityColumn">
+                <li>High</li>
+                <li>Low</li>
+                <li>Medium</li>
+                <li>Medium</li>
+            </ul>
+        </div><div id = "Notes">
+            <h1 class = "columnTitle">Notes:</h1>
+            <ul id = "notesColumn">
+                <li>Trash goes out on a Tuesday.</li>
+                <li>N/A</li>
+                <li>N/A</li>
+                <li>N/A</li>
+            </ul>
+        </div>
+        <script type = "text/javascript" src = "main.js"></script>
+    </body>
+</html>

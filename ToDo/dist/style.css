@@ -1,0 +1,177 @@
+body {
+    color: grey;
+    font-size: 3vh;
+}
+
+h1 {
+    font-size: 300%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 150%;
+    padding-bottom: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    border-top: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.columnTitle {
+    font-size: 150%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    color: grey;
+    cursor: pointer;
+    display: block;
+    font-size: 3.5vh;
+    overflow: hidden;
+    transition: 0.3s;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.menu:hover {
+    background-color: #ddd;
+}
+
+.spacing {
+    margin-top: 2%;
+}
+
+.tab.active:hover {
+    background-color: #59b95d;
+}
+
+.tab {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 3.5vh;
+    overflow: hidden;
+    transition: 0.3s;
+    white-space: nowrap;
+    width: 12.5%;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+#addToDoButton {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 3vh;
+}
+
+#cancelToDoButton {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 3vh;
+}
+
+#checkboxHolder {
+    margin-bottom: 2%;
+}
+
+#confirmDeleteButton {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 3vh;
+}
+
+#dates {
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+}
+
+#deleteTitle {
+    font-size: 5vh;
+    margin-bottom: 2%;
+}
+
+#deleteToDoForm {
+    background-color: #ccc;
+    display: none;
+    min-height: 70vh;
+    position: absolute;
+    text-align: center;
+    min-width: 100%;
+    z-index: 20;
+}
+
+#navBar {
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+#newToDoForm {
+    background-color: #ccc;
+    display: none;
+    height: 70vh;
+    position: absolute;
+    text-align: center;
+    min-width: 100%;
+    z-index: 20;
+}
+
+#Notes {
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+}
+
+#Options {
+    margin-bottom: 4%;
+}
+
+#Priority {
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+}
+
+#tabs {
+    margin-bottom: 2%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+#title {
+    text-align: center;
+}
+
+#toDoList {
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
