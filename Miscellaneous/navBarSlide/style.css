@@ -1,0 +1,24 @@
+button {
+  color: grey;
+  display: block;
+  font-size: 16px;
+  height: 0;
+  transition: height 0.5s ease-out;
+  overflow: hidden;
+  background: #f1f1f1;
+  width: 200px;
+}
+
+.visible {
+  display: block;
+  height: 50px;
+  transition: height 0.5s ease-in;
+}
+
+#menu {
+  background-color: #4caf50;
+  color: white;
+  font-size: 20px;
+  height: 100px;
+  max-height: 500px;
+}

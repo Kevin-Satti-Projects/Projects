@@ -78,7 +78,7 @@ document.getElementById("white").addEventListener("click", function allWhite() {
     }        
 });
 
-selectedColor = "black";
+let selectedColor = "black";
 createGrid(16, "black");
 
 document.getElementById("size").addEventListener("click", function getSize (){
