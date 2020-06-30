@@ -1,0 +1,48 @@
+body {
+  background-image: url("Images/coolBackground.png");
+  background-size: cover;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+}
+
+#buttonContainer {
+  margin: auto;
+  margin-top: 20px;
+  width: 500px;
+}
+
+#counter {
+  color: yellow;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 100px;
+  margin-top: 5px;
+  position: absolute;
+  text-align: center;
+  width: 100px;
+}
+
+#frame {
+  border: 20px outset #a7c9df;
+  height: 625px;
+  margin: auto;
+  overflow: hidden;
+  width: 500px;
+}
+
+#leftButton {
+  margin-left: 0;
+}
+
+#pictures {
+  transition: transform 1s ease-in-out;
+  width: 100000px;
+}
+
+#rightButton {
+  margin-left: 296px;
+}
