@@ -1,0 +1,20 @@
+form {
+  font-size: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  font-size: 20px;
+  margin: auto;
+}
+
+#submit {
+  font-size: 20px;
+  margin-top: 20px;
+}
