@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Projects/Library/library-with-react/public/index.html/static/css/main.0b12802d.chunk.css",
-    "main.js": "/Projects/Library/library-with-react/public/index.html/static/js/main.e6f45166.chunk.js",
-    "main.js.map": "/Projects/Library/library-with-react/public/index.html/static/js/main.e6f45166.chunk.js.map",
-    "runtime-main.js": "/Projects/Library/library-with-react/public/index.html/static/js/runtime-main.4e9b4c30.js",
-    "runtime-main.js.map": "/Projects/Library/library-with-react/public/index.html/static/js/runtime-main.4e9b4c30.js.map",
-    "static/js/2.46e30047.chunk.js": "/Projects/Library/library-with-react/public/index.html/static/js/2.46e30047.chunk.js",
-    "static/js/2.46e30047.chunk.js.map": "/Projects/Library/library-with-react/public/index.html/static/js/2.46e30047.chunk.js.map",
-    "index.html": "/Projects/Library/library-with-react/public/index.html/index.html",
-    "precache-manifest.7be8c6e2569ba48d27908aae1cff991b.js": "/Projects/Library/library-with-react/public/index.html/precache-manifest.7be8c6e2569ba48d27908aae1cff991b.js",
-    "service-worker.js": "/Projects/Library/library-with-react/public/index.html/service-worker.js",
-    "static/css/main.0b12802d.chunk.css.map": "/Projects/Library/library-with-react/public/index.html/static/css/main.0b12802d.chunk.css.map",
-    "static/js/2.46e30047.chunk.js.LICENSE.txt": "/Projects/Library/library-with-react/public/index.html/static/js/2.46e30047.chunk.js.LICENSE.txt"
+    "main.css": "/Projects/Library/library-with-react/static/css/main.0b12802d.chunk.css",
+    "main.js": "/Projects/Library/library-with-react/static/js/main.f0cbdb0e.chunk.js",
+    "main.js.map": "/Projects/Library/library-with-react/static/js/main.f0cbdb0e.chunk.js.map",
+    "runtime-main.js": "/Projects/Library/library-with-react/static/js/runtime-main.97e4cf84.js",
+    "runtime-main.js.map": "/Projects/Library/library-with-react/static/js/runtime-main.97e4cf84.js.map",
+    "static/js/2.46e30047.chunk.js": "/Projects/Library/library-with-react/static/js/2.46e30047.chunk.js",
+    "static/js/2.46e30047.chunk.js.map": "/Projects/Library/library-with-react/static/js/2.46e30047.chunk.js.map",
+    "index.html": "/Projects/Library/library-with-react/index.html",
+    "precache-manifest.6957949d7a313f1eb2b497dc0f77f4ef.js": "/Projects/Library/library-with-react/precache-manifest.6957949d7a313f1eb2b497dc0f77f4ef.js",
+    "service-worker.js": "/Projects/Library/library-with-react/service-worker.js",
+    "static/css/main.0b12802d.chunk.css.map": "/Projects/Library/library-with-react/static/css/main.0b12802d.chunk.css.map",
+    "static/js/2.46e30047.chunk.js.LICENSE.txt": "/Projects/Library/library-with-react/static/js/2.46e30047.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e9b4c30.js",
+    "static/js/runtime-main.97e4cf84.js",
     "static/js/2.46e30047.chunk.js",
     "static/css/main.0b12802d.chunk.css",
-    "static/js/main.e6f45166.chunk.js"
+    "static/js/main.f0cbdb0e.chunk.js"
   ]
 }
