@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button
+      onclick="changeImage()"
+      style="
+        color: white;
+        background-color: blue;
+        font-size: 50px;
+        width: 600px;
+        height: 70px;
+      "
+    >
+      Change Image
+    </button>
+    <br />
+    <br />
+    <img src="#" />
+    <script>
+      function changeImage() {
+        const img = document.querySelector("img");
+        fetch(
+          "https://api.giphy.com/v1/gifs/search?api_key=0U5228T6qShOKbBJm7i481sJkMyUWpJ4&q=cats",
+          { mode: "cors" }
+        )
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (response) {
+            let index = Math.floor(Math.random() * response.data.length);
+            img.src = response.data[index].images.original.url;
+          })
+          .catch((e) => {
+            console.log(e);
+          });
+      }
+      changeImage();
+    </script>
+  </body>
+</html>
