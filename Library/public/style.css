@@ -1,0 +1,129 @@
+body {
+    background-color: darkmagenta;
+}
+
+button {
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    float: right;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 400%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 200%;
+    margin-top: 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 15%;
+    width: 20%;
+}
+
+table {
+    background-color: rgb(223, 240, 216);
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 99%;
+}
+
+td {
+    border: 2px solid black;
+    color: darkslategray;
+    font-size: 2rem;
+    width: 19%;
+}
+
+th {
+    border: 2px solid black;
+    color: rgb(70, 136, 71);
+    font-size: 4rem;
+    width: 19%;
+}
+
+.block {
+    display: block;
+    height: 1%;
+    width: 100%;
+}
+
+.block8 {
+    display: block;
+    height: 5%;
+    width: 100%;
+}
+
+.form {
+    background: darkgrey;
+    bottom: 2%;
+    color: darkslategray;
+    font-size: 2rem;
+    height: 60%;
+    position: fixed;
+    right: 5%;
+    text-align: center;
+    width: 30%;
+    z-index: 100;
+}
+
+.formInput {
+    display: inline-block;
+    font-size: 2rem;
+    height: 10%;
+    width: 50%;
+}
+
+.formText {
+    display: inline-block;
+}
+
+.readText {
+    display: inline-block;
+}
+
+.readInput {
+    display: inline-block;
+    height: 5%;
+    width: 20%;
+}
+
+#buttonContainer {
+    position : fixed;
+    bottom: 2%;
+    right: 5%;
+}
+
+
+#newBookButton {
+    border-radius: 20px;
+    color: white;
+    background-color: grey;
+    font-size: 2rem;
+}
+
+#submitButton {
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+}
+
+#subtitle {
+    color: palegoldenrod;
+    text-align: center;
+}
+
+#title {
+    color: goldenrod;
+    text-align: center;
+}
