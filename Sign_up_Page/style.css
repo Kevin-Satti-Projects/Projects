@@ -1,0 +1,193 @@
+body {
+  background-color: #ECEEF1;
+  height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    width: 320px;
+}
+
+label {
+    display: block;
+    margin-left: 25px;
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+.addendum {
+    background-color: #ECEEF1;
+    border: 1px solid #c7c7c7;
+    color: rgb(78, 78, 78);
+    font-size: 11px;
+    font-style: italic;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    width: 348px;
+}
+
+.block {
+    display: block;
+}
+
+.container {
+    float: right;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+
+.createButton {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    cursor: pointer;
+    height: 44px;
+    font-size: 1.125em;
+    font-weight: normal;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.head {
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.header {
+    height: 75px;
+}
+
+.image {
+    height: 35px;
+    width: 118px;
+}
+
+.legal {
+    font-size: 14px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.legalText {
+    color: #4C4C4C;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    width: 800px;
+}
+
+.link {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+.logoContainer {
+    padding-top: 17.5px;
+    text-align: center;
+}
+
+.logos {
+    height: 23px;
+    margin: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-align: center;
+    width: 318px;
+}
+
+.logos img {
+    font-size: 13px;
+    height: 23px;
+    width: 23px;
+}
+
+.main {
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    color: #4C4C4C;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    width: 380px;
+}
+
+.margin {
+    margin-left: 6px;
+}
+
+.padded {
+    padding-top: 20px;
+}
+
+.pic {
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+}
+
+.privacy {
+    background-color: #6B6C72;
+    border-radius: 4px;
+    bottom: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 12px;
+    position: fixed;
+    right: 5%;
+}
+
+.signInBar {
+    height: 60px;
+}
+
+.signInButton {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    cursor: pointer;
+    float: right;
+    height: 34px;
+    font-size: 1.125em;
+    font-weight: normal;
+    margin-right: 10px;
+    padding: 0 20px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.terms {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.text {
+    color: rgb(78, 78, 78);
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 4px;
+    vertical-align: top;
+}
