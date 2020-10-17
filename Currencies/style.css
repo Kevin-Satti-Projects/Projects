@@ -1,0 +1,86 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+body {
+    background: #193549;
+    color: white;
+    font-size: 1.5rem;
+}
+
+select {
+  background-color: white;
+  text-align: center;
+  width: 500px;
+  line-height: 1.5em;
+  font-size: 1.5rem;
+  padding: 0.5em 3.5em 0.5em 1em;
+  border:none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  color:black;
+    background-image:
+      linear-gradient(45deg, transparent 50%, blue 50%),
+      linear-gradient(135deg, blue 50%, transparent 50%),
+      linear-gradient(to right, skyblue, skyblue);
+    background-position:
+      calc(100% - 30px) calc(1em + 2px),
+      calc(100% - 20px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      10px 10px,
+      10px 10px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+}
+
+.result {
+  border: 5px solid #ffc600;
+  border-radius: 5px;
+  width: 80vw;
+  font-size: 4em;
+  margin: auto;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.currencies {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
