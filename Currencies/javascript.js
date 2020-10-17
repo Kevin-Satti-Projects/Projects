@@ -5,7 +5,7 @@ const result = document.querySelector(".result");
 let values;
 
 async function selectBase(e) {
-    values = await fetch(`http://api.openrates.io/latest?base=${e.target.value}`, {mode: "cors"})
+    values = await fetch(`https://api.openrates.io/latest?base=${e.target.value}`, {mode: "cors"})
         .then(response => response.json())
         .then(data => (data["rates"]));
         result.innerHTML = `1${e.target.value}   =   ${Math.round(values[search.value] * 100) / 100}${search.value}`;
