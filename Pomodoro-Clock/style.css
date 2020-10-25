@@ -17,6 +17,7 @@ button {
     font-size: 50px;
     font-weight: bolder;
     width: 15%;
+    vertical-align: middle;
 }
 
 button:hover{
