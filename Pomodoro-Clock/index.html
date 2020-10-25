@@ -9,9 +9,6 @@
         <div id = "container">
             <div id = "title">
                 Pomodoro Clock
-                <div id = "subtitle">
-                    By Kevin Satti
-                </div>
             </div>
             <br>
             <div id = "session">
@@ -20,21 +17,27 @@
                   Break
             </div>
             <br>
-            <button id="sessionDecrement">▾</button><div id ="sessionTime">25</div><button id ="sessionIncrement">
-                ▴
-            </button><button id="breakDecrement">▾</button><div id = "breakTime">5</div><button id="breakIncrement">▴</button>
-            <br>
-            <button id ="playButton">⏵</button><button id ="resetButton">⟳</button>
-            <br>
-            <div id = "timer">
-                Session
+            <div class="flex">
+                <button id="sessionDecrement">▾</button><div id ="sessionTime">25</div><button id ="sessionIncrement">
+                    ▴
+                </button><button id="breakDecrement">▾</button><div id = "breakTime">5</div><button id="breakIncrement">▴</button>
             </div>
             <br>
-            <div id = "time">
-                25:00
+            <div class="flex">
+                <button id ="playButton">⏵</button><button id ="resetButton">⟳</button>
             </div>
-            <br>
-            <button id ="pauseButton">⏸</button><button id ="stopButton">⏹</button>
+            <div class="flexCol">
+                <div id = "timer">
+                    Session
+                </div>
+                <div id = "time">
+                    25:00
+                </div>
+            </div>
+            <div class="flex">
+                <button id ="pauseButton">⏸</button><button id ="stopButton">⏹</button>
+            </div>
+            
         </div>
     </body>
     <script type="text/javascript" src="javascript.js"></script>

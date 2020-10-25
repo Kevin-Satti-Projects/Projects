@@ -16,8 +16,6 @@ button {
     display: inline-block;
     font-size: 50px;
     font-weight: bolder;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
     width: 15%;
 }
 
@@ -46,21 +44,18 @@ button:hover{
     background-color: black;
     color: white;
     display: inline-block;
-    margin-bottom: 20px;
     padding-bottom: 6px;
     width: 9%;
 }
 
 #breakDecrement {
     font-size: 32px;
-    margin-bottom: 20px;
     padding-bottom: 5px;
     width: 3%;
 }
 
 #breakIncrement {
     font-size: 32px;
-    margin-bottom: 20px;
     padding-bottom: 5px;
     width: 3%;
 }
@@ -82,14 +77,12 @@ button:hover{
 
 #sessionDecrement {
     font-size: 32px;
-    margin-bottom: 20px;
     padding-bottom: 5px;
     width: 3%;
 }
 
 #sessionIncrement {
     font-size: 32px;
-    margin-bottom: 20px;
     padding-bottom: 5px;
     width: 3%;
 }
@@ -98,7 +91,6 @@ button:hover{
     background-color: black;
     color: white;
     display: inline-block;
-    margin-bottom: 20px;
     padding-bottom: 6px;
     width: 9%;
 }
@@ -136,5 +128,15 @@ button:hover{
     margin-bottom: 20px;
     text-align: center;
     width: 30%
+}
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

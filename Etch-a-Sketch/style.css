@@ -11,7 +11,6 @@ h1 {
     font-size : 400%;
     color : darkblue;
     text-align: center;
-    margin-bottom: 0;
     margin-top: 0;
 }
 
@@ -45,4 +44,12 @@ button {
     height: 480px;
     display: inline-grid;
     grid-template-columns: repeat(var(--columns), 1fr);
+}
+
+.max1 {
+    max-height: 35vh;
+}
+
+.max2 {
+    max-height: 65vh;
 }
