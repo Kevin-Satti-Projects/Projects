@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(to right, #030386 0%, #7812bd 100%);
+  font-family: 'Roboto'; }
+
+.search {
+  font-size: 3em;
+  margin: auto;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color: #787878; }
+
+.headings {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background-color: blue;
+  color: #EFEFEF;
+  font-size: 2em;
+  line-height: 2.5em;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  transform: perspective(200px) rotateX(1deg) scale(1.001); }
+  .headings .heading {
+    flex: 1;
+    border: 1px solid black;
+    border-bottom: none; }
+
+.results {
+  margin: auto;
+  width: 80%; }
+  .results li {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    background-color: #ffc600;
+    font-size: 1.5em;
+    line-height: 2em; }
+  .results li:nth-child(even) {
+    transform: perspective(100px) rotateX(1deg) scale(1.001);
+    background: linear-gradient(to bottom, #ffffff 0%, #EFEFEF 100%);
+    border: 1px solid black; }
+  .results li:nth-child(odd) {
+    transform: perspective(100px) rotateX(-1deg); }
+  .results li:first-child {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+  .results li:last-child {
+    border-bottom: 1px solid black; }
+
+.country {
+  border-right: 1px solid black; }
+
+.newCases {
+  border-right: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */
