@@ -108,3 +108,15 @@ body {
 .newCases {
   border-right: 1px solid black;
 }
+
+@media all and (max-width: 1000px) {
+
+  .headings {
+    width: 90%;
+  }
+
+  .results {
+    width: 90%;
+  }
+
+}
