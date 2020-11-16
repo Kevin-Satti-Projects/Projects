@@ -25,11 +25,13 @@ let newText;
 function clickedProjectButton(button) {
   if (button.id == "NewProjectButton") {
     let newProjectName = prompt("New Project's Name:");
+    if(newProjectName === null){
+      return;
+    }
     let numberOfButtons = document.getElementById("tabs").childElementCount;
     let newTab = document.createElement("button");
     newTab.id = "Project" + numberOfButtons + "Button";
     newTab.classList.add("tab");
-    newTab.style.marginRight = "4px";
     let text = document.createTextNode(newProjectName);
     newTab.appendChild(text);
     button.parentNode.insertBefore(newTab, button);

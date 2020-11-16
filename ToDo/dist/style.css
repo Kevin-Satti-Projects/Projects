@@ -37,6 +37,11 @@ ul {
     text-decoration: underline;
 }
 
+.flexContainer {
+    display: flex;
+    overflow: hidden;
+}
+
 .menu {
     background-color: #f1f1f1;
     border: 1px solid #ccc;
@@ -67,6 +72,7 @@ ul {
     cursor: pointer;
     display: inline-block;
     font-size: 3.5vh;
+    margin-right: 4px;
     overflow: hidden;
     transition: 0.3s;
     white-space: nowrap;
@@ -103,7 +109,7 @@ ul {
     border: 1px solid #ccc;
     display: inline-block;
     vertical-align: top;
-    width: 10%;
+    width: 18%;
 }
 
 #deleteTitle {
@@ -142,7 +148,7 @@ ul {
     border: 1px solid #ccc;
     display: inline-block;
     vertical-align: top;
-    width: 29%;
+    width: 26%;
 }
 
 #Options {
@@ -171,6 +177,33 @@ ul {
     border: 1px solid #ccc;
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    width: 25%;
 }
+
+@media all and (max-width: 1300px) {
+
+    .flexContainer {
+        font-size: 12px;
+    }
+
+    .menu {
+        font-size: 12px;
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+
+    #tabs {
+        display: flex;
+    }
+
+    .tab {
+        flex: 1 1 12.5%;
+        font-size: 2vh;
+        height: 5vh;
+    }
+
+}
+
 
