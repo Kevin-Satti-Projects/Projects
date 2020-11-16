@@ -140,3 +140,110 @@ button:hover{
     flex-direction: column;
     align-items: center;
 }
+
+@media all and (max-width: 1200px) {
+
+    #title {
+        width: 60%;
+    }
+
+    #session {
+        width: 30%;
+    }
+
+    #break {
+        width: 30%;
+    }
+
+    #sessionDecrement {
+        width: 6%;
+    }
+
+    #sessionIncrement {
+        width: 6%;
+    }
+
+    #sessionTime {
+        width: 18%;
+    }
+
+    #breakDecrement {
+        width: 6%;
+    }
+
+    #breakIncrement {
+        width: 6%;
+    }
+
+    #breakTime {
+        width: 18%;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    #timer {
+        width: 60%;
+    }
+
+    #time {
+        width: 60%;
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+
+    #title {
+        width: 80%;
+    }
+
+    #session {
+        width: 40%;
+    }
+
+    #break {
+        width: 40%;
+    }
+
+    #sessionDecrement {
+        width: 8%;
+    }
+
+    #sessionIncrement {
+        width: 8%;
+    }
+
+    #sessionTime {
+        width: 24%;
+    }
+
+    #breakDecrement {
+        width: 8%;
+    }
+
+    #breakIncrement {
+        width: 8%;
+    }
+
+    #breakTime {
+        width: 24%;
+    }
+
+    button {
+        width: 40%;
+    }
+
+    #timer {
+        width: 80%;
+    }
+
+    #time {
+        width: 80%;
+    }
+
+}
+
+
+
