@@ -76,9 +76,6 @@ let Gameboard = (function () {
                 }
                 if(a.textContent == "X" && b.textContent == "X" && c.textContent == "X" || 
                    a.textContent == "O" && b.textContent == "O" && c.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
@@ -100,9 +97,6 @@ let Gameboard = (function () {
                 }
                 if(d.textContent == "X" && e.textContent == "X" && f.textContent == "X" || 
                    d.textContent == "O" && e.textContent == "O" && f.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
@@ -124,9 +118,6 @@ let Gameboard = (function () {
                 }
                 if(g.textContent == "X" && h.textContent == "X" && i.textContent == "X" || 
                    g.textContent == "O" && h.textContent == "O" && i.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
@@ -148,9 +139,6 @@ let Gameboard = (function () {
                 }
                 if(a.textContent == "X" && d.textContent == "X" && g.textContent == "X" || 
                    a.textContent == "O" && d.textContent == "O" && g.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
@@ -172,9 +160,6 @@ let Gameboard = (function () {
                 }
                 if(b.textContent == "X" && e.textContent == "X" && h.textContent == "X" || 
                    b.textContent == "O" && e.textContent == "O" && h.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
@@ -196,9 +181,6 @@ let Gameboard = (function () {
                 }
                 if(c.textContent == "X" && f.textContent == "X" && i.textContent == "X" || 
                    c.textContent == "O" && f.textContent == "O" && i.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
@@ -220,9 +202,6 @@ let Gameboard = (function () {
                 }
                 if(a.textContent == "X" && e.textContent == "X" && i.textContent == "X" || 
                    a.textContent == "O" && e.textContent == "O" && i.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
@@ -244,9 +223,6 @@ let Gameboard = (function () {
                 }
                 if(c.textContent == "X" && e.textContent == "X" && g.textContent == "X" || 
                    c.textContent == "O" && e.textContent == "O" && g.textContent == "O" ){
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = player.name;
                     if(player == player1){
                         playerScore += 1;
                         document.getElementById("playerScore").textContent = "Score: " + playerScore;
