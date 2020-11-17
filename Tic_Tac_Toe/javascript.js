@@ -69,10 +69,6 @@ let Gameboard = (function () {
                 board.splice(j, 1, document.getElementById(j).textContent);
                 if(!(board.includes(0))){
                     gameIsWon = true;
-                    document.getElementById("winner").style.display = "block";
-                    document.getElementById("winMessage").style.display = "block";
-                    document.getElementById("winner").textContent = "It's a";
-                    document.getElementById("winMessage").textContent = "Draw!";
                 }
                 if(a.textContent == "X" && b.textContent == "X" && c.textContent == "X" || 
                    a.textContent == "O" && b.textContent == "O" && c.textContent == "O" ){
